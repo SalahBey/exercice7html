@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercice7html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" method="get" class="form-example">
+        <fieldset class="blue">
+            <legend>
+                Votre identité
+            </legend>
+            <ol>
+                <li>
+                    <label for="name">Nom: </label>
+                    <input type="text" name="name" placeholder="Nom" id="name">
+                </li>
+                <li>
+                    <label for="firstname">Prénom</label>
+                    <input type="text" name="firstname" placeholder="Prenom" id="firstname">
+                </li>
+                <li>
+                    <label for="name">Adresse mail : </label>
+                    <input type="text" name="email" required="required" placeholder="Adresse mail">
+                </li>
+
+            </ol>
+
+        </fieldset>
+
+        <fieldset class="purple">
+            <legend>
+                Adresse de livraison
+            </legend>
+            <ol>
+                <li>
+
+                    <label for="address">Adresse : </label>
+
+                    <textarea name="adresse">
+
+             </textarea>
+                </li>
+                <li>
+                    <label for="Codepostal">Codepostal : </label>
+                    <input type="text" name="zipCode" placeholder="Code postal" id="zipCode">
+
+                </li>
+                <li>
+
+                    <label for="ville">Ville : </label>
+                    <input type="text" name="city" placeholder="Ville" id="city">
+                </li>
+            </ol>
+
+        </fieldset>
+
+        <fieldset class="pink">
+            <legend>
+                Informations de réglement
+            </legend>
+            <ol>
+                <li>
+                    <label for="name">Visa</label>
+                    <input type="radio" name="visa" id="visa">
+                    <ul><li>
+                    <label for="name">Mastercard</label>
+                    <input type="radio" name="masterCard" id="masterCard">
+                </li></ul>
+                <li>
+                    <label for="cardNumber">numero de carte : </label>
+                    <input type="number" name="cardNumber" placeholder="Numéro de carte" id="cardNumber">
+                </li>
+                <li>
+                    <label for="securityCode">code de sécurité</label>
+                    <input type="number" name="securityCode" placeholder="Code de sécurité" id="securityCode">
+                </li>
+                <li>
+                    <label for="titulary">Nom du titulaire</label>
+                    <input type="text" name="titulary" placeholder="Nom du titulaire" id="titulary">
+                </li>
+
+            </ol>
+
+        </fieldset>
+        
+        <button>
+            J'achète !
+        </button>
+        
+    </form>
+
+
+
+</body>
+
+</html>
